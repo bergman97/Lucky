@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2002
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Login", "Login\Login.csproj", "{E8D2EA32-7F39-4471-A43E-61EDC54CA158}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeBooking", "TimeBooking\TimeBooking.csproj", "{83349290-3980-4042-81AF-09BB8D21A453}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		{E8D2EA32-7F39-4471-A43E-61EDC54CA158}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8D2EA32-7F39-4471-A43E-61EDC54CA158}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8D2EA32-7F39-4471-A43E-61EDC54CA158}.Release|Any CPU.Build.0 = Release|Any CPU
-		{83349290-3980-4042-81AF-09BB8D21A453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{83349290-3980-4042-81AF-09BB8D21A453}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{83349290-3980-4042-81AF-09BB8D21A453}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{83349290-3980-4042-81AF-09BB8D21A453}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
