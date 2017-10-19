@@ -23,32 +23,9 @@ namespace TimeBooking
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/respond.js"));
 
-            //jQuery fullcalendar plugin js
-            bundles.Add(new ScriptBundle("~/bundles/fullcalendar").Include(
-                                      "~/Scripts/moment.js",  //Include the moment.js
-                                      "~/Scripts/fullcalendar.js"));
-
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
-
-            //jQuery fullcalendar plugin css
-            bundles.Add(new StyleBundle("~/Content/fullcalendar").Include(
-                                      "~/Content/fullcalendar.css"));
-
-
-            ////Calendar css file
-            //bundles.Add(new StyleBundle("~/Content/fullcalendarcss").Include(
-            //             "~/Content/themes/jquery.ui.all.css",
-            //             "~/Content/fullcalendar.css"));
-
-            ////Calendar Script file
-            //bundles.Add(new ScriptBundle("~/bundles/fullcalendarjs").Include(
-            //            "~/Scripts/jquery-ui-1.10.4.min.js",
-            //            "~/Scripts/fullcalendar.min.js"));
-
-
-
         }
     }
 }

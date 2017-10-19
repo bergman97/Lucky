@@ -1,5 +1,4 @@
-﻿using Login.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -15,8 +14,6 @@ namespace Login.Controllers
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
-
-            //Returnera resultatet som en Lista och lägg Listan i ett HTTPRESPONSE()
         }
 
         // GET api/values/5
@@ -28,7 +25,6 @@ namespace Login.Controllers
         // POST api/values
         public void Post([FromBody]string value)
         {
-
         }
 
         // PUT api/values/5
